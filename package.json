@@ -1,0 +1,16 @@
+{
+  "name": "aula-03---14-08",
+  "version": "1.0.0",
+  "description": "Utilizando a analogia de um \"restaurante\" para compreender os conceitos mencionados acima, temos:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --no-warnings index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
