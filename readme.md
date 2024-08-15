@@ -16,14 +16,14 @@
         -   Intermediador para a troca de informações. 
 
 
-## REST:
+### REST:
     No contexto de API, a transferência de dados é feita, geralmente, utilizando o protocolo HTTP. 
 
     REST é um acrônimo de Representational State Transfer (Transferência de Estado Representativo), ou seja, a transferência de dados será feita de uma maneira simbólica, representativa, de forma didática, delimitando algumas obrigações (ou constraints) nesta transferência. 
 
     No REST, os dados são chamados de RESOURCES, sendo uma entidade, um objeto. 
 
-## 6 necessidades (constraints) para ser RESTFUL:
+### 6 necessidades (constraints) para ser RESTFUL:
     1 - Client - Server: separação do cliente e do armazenamento de dados (servidor), possibilitando a portabilidade do sistema, usando o React para WEB e React Native para o smartphone, por exemplo.
 
     2 - Stateless (sem estado) : cada requisição que o cliente fizer para o servidor, deverá conter todas as informações necessárias para o servidor entender e responder (RESPONSE) a requisição (REQUEST).
@@ -37,10 +37,10 @@
 
     6 - Uniforme Interface (Interface Uniforme) : Deve ter uma interface uniforme para simplificar a interação, geralmente envolvendo a definição de um conjunto de padrões a serem seguidos, como o uso de verbos HTTP (GET,POST,PUT,DELETE) e a estruturação dos URLs. 
 
-## RESTFUL:
+### RESTFUL:
     Ser "RESTFUL" é, basicamente, aplicar os padrões do REST. 
 
-## BOAS PRÁTICAS: 
+### BOAS PRÁTICAS: 
     - Utilizar verbos HTTP para as nossas requisições.
     - Não utilizar barras no final do nosso endpoint.
     - Utilizar plural ou singular na criação dos endpoints é sua escolha, apenas mantenha um padrão.
